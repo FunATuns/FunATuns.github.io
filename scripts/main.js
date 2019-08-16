@@ -214,11 +214,13 @@ function train() {
       document.getElementById("train").style.opacity = 0;
       document.getElementById("gen").style.display = "block";
       document.getElementById("genName").style.display = "block";
+      document.getElementById("wouldComment").style.display = "block";
 
       setTimeout(function () {
         document.getElementById("train").style.display = "none";
         document.getElementById("gen").style.opacity = "1";
         document.getElementById("genName").style.opacity = "1";
+        document.getElementById("wouldComment").style.opacity = "1";
 
       }, 500);
     }, 1500);
