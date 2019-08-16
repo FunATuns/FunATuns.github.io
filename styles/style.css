@@ -1,0 +1,121 @@
+#centerWrapper {
+    text-align: center;
+}
+
+#headingThing {
+    font-size: 60px;
+    font-family: 'Saira', sans-serif;
+}
+
+#author {
+    font-size: 40px;
+    font-family: 'Saira', sans-serif;
+}
+
+.settingCard {
+    transition: all 0.5s ease;
+
+    position: absolute;
+    height: 120px;
+    width: 600px;
+    left: calc(50% - 300px);
+
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    background-color: white;
+}
+
+#genName {
+    transition: all 0.5s ease;
+
+    position: absolute;
+    height: 120px;
+    width: 600px;
+    left: calc(50% - 300px);
+
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    background-color: white;
+
+    font-family: 'Saira', sans-serif;
+    font-size: 80px;
+}
+
+.mainText {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Saira', sans-serif;
+}
+
+.tapToChange {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+
+    color: #888;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Saira', sans-serif;
+}
+
+#allLower {
+    top:200px;
+}
+
+#seperateExc {
+    top:350px;
+}
+
+#useExtras {
+    top:500px;
+}
+
+#filterName {
+    top:650px;
+}
+
+#train {
+    top:800px;
+}
+
+#gen {
+    border-color: blueviolet;
+    background-color: blueviolet;
+    color: white;
+
+    top:350px;
+}
+#gen .mainText {
+    font-size: 35px;
+}
+
+#genName {
+    top:200px;
+}
+
+#wouldComment {
+    position: absolute;
+    top: 500px;
+    color: #888;
+
+    font-size: 35px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Saira', sans-serif;
+}
+
+#msg {
+    position: absolute;
+    top: 650px;
+
+    font-size: 35px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Saira', sans-serif;
+}

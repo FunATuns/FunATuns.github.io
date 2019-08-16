@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>...</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/pretty-checkbox.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Saira&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="centerWrapper">
+        <div id="headingThing">Girl-y Comment Bot</div>
+        <div id="author">made by payton o and coffee</div>
+
+        <div id="allLower" class="settingCard" onclick="toggleSetting(this)">
+          <div class="mainText">
+          </div>
+          <div class="tapToChange">
+              tap to change!
+          </div>
+        </div>
+        <div id="seperateExc" class="settingCard" onclick="toggleSetting(this)">
+          <div class="mainText">
+          </div>
+          <div class="tapToChange">
+              tap to change!
+          </div>
+        </div>
+        <div id="useExtras" class="settingCard" onclick="toggleSetting(this)">
+          <div class="mainText">
+          </div>
+          <div class="tapToChange">
+              tap to change!
+          </div>
+        </div>
+        <div id="filterName" class="settingCard" onclick="toggleSetting(this)">
+          <div class="mainText">
+          </div>
+          <div class="tapToChange">
+              tap to change!
+          </div>
+        </div>
+        <div id="train" class="settingCard" onclick="train()">
+          <div class="mainText">
+            train model with these settings!
+          </div>
+          <div class="tapToChange">
+              tap to train!
+          </div>
+        </div>
+    
+        <div id="gen" class="settingCard" style="display: none; opacity: 0;" onclick="generateMessage()">
+          <div class="mainText">
+            generate comment using model!!
+          </div>
+        </div>
+
+        <input id="genName" placeholder="name..." style="display: none; opacity: 0;">
+
+        <div id="wouldComment">paypay.bot would comment:</div>
+        <div id="msg"></div>
+        
+    </div>
+    
+
+    <script src="scripts/chart.js"></script>
+    <script src="scripts/p5.js"></script>
+    <script src="scripts/brain.js"></script>
+    <script src="scripts/data.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
