@@ -87,7 +87,7 @@ function addToWord(wordFrom, wordTo) {
 }
 
 // Create a message
-function generateMessage(passedInName = "") {
+function generateMessage(passedInName = document.getElementById("genName").value) {
   var msg = "";
   var lastWord = "[START]";
   for( var i = 0; i < MAXLENGTH; i++){
