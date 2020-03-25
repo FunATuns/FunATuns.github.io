@@ -153,22 +153,7 @@ function toggleSetting(thisDiv) {
 }
 
 function renderToggles() {
-  for(var settingName in settings) {
-    var thisDiv = document.getElementById(settingName);
-
-    thisDiv.style.borderColor = toggleStuff[settingName].color;
-
-    if(settings[settingName]) {
-      thisDiv.style.backgroundColor = toggleStuff[settingName].color;
-      thisDiv.getElementsByClassName("mainText")[0].style.color = "white";
-      thisDiv.getElementsByClassName("mainText")[0].innerText = toggleStuff[settingName].onText;
-    }
-    else if(!settings[settingName]) {
-      thisDiv.style.backgroundColor = "white";
-      thisDiv.getElementsByClassName("mainText")[0].style.color = toggleStuff[settingName].color;
-      thisDiv.getElementsByClassName("mainText")[0].innerText = toggleStuff[settingName].offText;
-    }
-  }
+  
 }
 
 function getItemFromWeightedArray(ary) {
@@ -191,21 +176,9 @@ function getItemFromWeightedArray(ary) {
 }
 
 function train() {
-  parseData(false, settings.allLower, settings.seperateExc, settings.useExtras, settings.filterName);
-
-  for(var settingName in settings) {
-    var thisDiv = document.getElementById(settingName);
-
-    thisDiv.style.opacity = 0;
-  }
+  parseData(false);
 
   setTimeout(function () {
-    for(var settingName in settings) {
-      var thisDiv = document.getElementById(settingName);
-  
-      thisDiv.style.display = "none";
-    }
-
     document.getElementById("train").style.top = "200px";
     document.getElementById("train").getElementsByClassName("mainText")[0].innerText = "model trained! time to generate some comments...";
     document.getElementById("train").getElementsByClassName("tapToChange")[0].style.opacity = "0";

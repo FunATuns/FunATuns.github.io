@@ -42,6 +42,14 @@ var comments = [
   "cute!",
   "aww cute!! miss ya",
   "cuties",
+  "love this!",
+  "Cuteee!",
+  "yess nicole ur so pretty",
+  "this is so cute nicole!!!",
+  "Omg you're so cute!",
+  "So cute!!",
+  "You are cute",
+  "love this",
 
   // MARISSA MANNHARDT
   "YOURE BEAUTIFUL",
@@ -82,6 +90,19 @@ var comments = [
   "wow queen",
   "Cute!!!",
   "Pretty!",
+  "hi pretty beautiful queen",
+  "ur hot",
+  "You're so pretty!!!!",
+  "omg i cant believe this",
+  "Absolutely stunning lizzy!!!",
+  "WE LOVE U",
+  "HAHA LEGEND",
+  "GORGEOUS",
+  "omg so cute!!!!!!!!!!!!",
+  "<3 u lizzy",
+  "so pretty!",
+  "#thriving",
+  "mood also wowza you pretty",
 
   // NOELLE GLASSBRENNER
   "so cute!!",
@@ -181,8 +202,13 @@ var comments = [
   "you're so cute lizzy",
   "wowie",
   "why are you literally THE cutest",
-
-
+  "Awesome lizzy!",
+  "Hope I dont die but hope you have fun!",
+  "Make me a shirt",
+  "we learned how to throw it back!!!",
+  "so fun!! miss you cutie!!",
+  "so cute so cute so so so cute omg",
+  "cool i guess ;)",
 
   // MOLLYS FRIENDS
   "literally perfect",
@@ -223,6 +249,13 @@ var fullcomments = [
   "surprised we made it out of the mini maze",
   "still full from the stolen apples",
   "nicole you're so cute",
+  "Glad to see ur dress finally came",
+  "dog",
+  "freshmen",
+  "open your eyes",
+  "What a beauty!",
+  "cutee",
+
 
   // MARISSA MANNHARDT
   "even if u look homeless i still luv u",
@@ -239,6 +272,20 @@ var fullcomments = [
   "insanely cute Lyd",
   "WOWOWOW LYDIA",
   "I'm a man of simple tastes. I see bread, I like.",
+  "Beautiful model citizen",
+  "cutie (and upholding society)",
+  "very pretty (and also nicole's math tutor)",
+  "you didn't have to go this hard just saying",
+  "I love you and democracy",
+  "ily",
+  "pins!",
+  "love you",
+  "you're my favorite eco friendly, democracy supporting queen.",
+  "Queen shit",
+  "first",
+  "we LOVE you lizzy",
+  "tellement jolie! beaucoup!",
+
 
   // NOELLE GLASSBRENNER
   "Love the suit ;)",
